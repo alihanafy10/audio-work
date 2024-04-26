@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="وصف الموقع هنا">
+    <meta name="keywords" content="الكلمات الدلالية هنا">
+    <meta name="author" content="اسم المؤلف هنا">
+     <link rel="icon" href="image/Logo1.png" type="image/x-icon">
+    
+     <!--icon bootstrab-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--slike-->
+    <link rel="stylesheet" href="slike/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="slike/slick-1.8.1/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/audio.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--top-audio-->
+        <div class="top-article d-flex flex-column align-items-center ">
+          <!--navbar-->
+            <nav class="p-0">
+          <div
+            class="d-flex justify-content-between align-items-center align-self-stretch"
+          >
+          <img src="image/Logowhite1.png" alt="logo" />
+            <a href="#">
+              <i class="bi bi-list text-white fs-3"></i>
+            </a>
+          </div>
+            </nav>
+            <h4>عبّود كاست </h4>
+            <h1 >لأول مرة منذ 12 عامًا سامسونج تخسر أمام أبل</h1>
+            <h2 >مجموعة من أسئلة الجمهور تناولت مستقبل الشركة وتوسعها </h2>
+            <div class="music-player position-relative">
+              <audio  id="song">
+                  <source src="audio/Point of No Return.mp3" type="audio/mp3">
+              </audio>
+              <input type="range" value="0" id="prog" dir="ltr">
+              <div  class="ic">
+                  <i onclick="playPause()" class="bi bi-play-fill" id="controlIcon" style="color: #F5B078;"></i>
+              </div>
+              <span id="currentTime">0:00</span>
+            </div>
+            <div class="share d-flex align-items-center justify-content-between w-100">
+              <div class="d-flex divTwo">
+                <img class="" src="image/image3.jpg" alt="user">
+                  <div class="text-end">
+                      <h6>سامح متولى</h6>
+                      <span>الثلاثاء ٢٦ مارس ٢٠٢٤ م</span>
+                  </div>
+              </div>
+                <div class="divOne bg-white d-flex justify-content-center align-items-center rounded-circle">
+                    <i class="bi bi-share fs-5" style="color:#2984B5;"></i>
+                </div>
+            </div>
+            <p>
+                <span>#</span>
+                بودكاست الفجر
+                <span>#</span>
+                سامسونج
+                <span>#</span>
+                أبل
+                <span>#</span>
+                أيفون
+                <span>#</span>
+                الجوال
+                <span>#</span>
+                هاشتاج
+                <span>#</span>
+                الامم المتحده
+            </p>
+            
+      </div>
+      <!--swaping-->
+      <div class="under-div">
+        <div>
+            <ul>
+              <li class="active">الوصف</li>
+              <li>مراجع</li>
+                <li >توصيات</li>
+            </ul>
+            <div class="content">
+                <p>
+                    لمدة 12 عامًا وسامسونج في المركز الأول كأكبر بائع للهواتف عالميًا. نموذج عمل الشركة وهويتها ومجال عملها بالتحديد في سلسلة عمل القطاع، ذكرنا أهم ما تحقق من إنجازات، وعدّدنا المزارع التي استثمروا فيها والأشجار التي صنعوها وكذلك تحدّثنا عن مصنع التحميص،
+                    <p>ختمنا الحلقة بمجموعة من مستقبل الشركة وتوسعها واستقطاب بعض الموظفين السعوديين وكبسولات القهوة ودور الأبحاث والتطوير وبراءة الاختراع. ختمنا الحلقة بمجموعة من أسئلة الجمهور التي تناولت مستقبل الشركة وتوسعها واستقطاب بعض الموظفين السعوديين وكبسولات القهوة ودور الأبحاث والتطوير وبراءة الاختراع.</p>
+                </p>
+            </div>
+            <div class="content">
+                <p>
+                    لمدة 12 عامًا وسامسونج في المركز الأول كأكبر بائع للهواتف عالميًا. نموذج عمل الشركة وهويتها ومجال عملها بالتحديد في سلسلة عمل القطاع، ذكرنا أهم ما تحقق من إنجازات، وعدّدنا المزارع التي استثمروا فيها والأشجار التي صنعوها وكذلك تحدّثنا عن مصنع التحميص،
+                </p>
+            </div>
+            <div class="content">
+                <p>
+                    <p>ختمنا الحلقة بمجموعة من مستقبل الشركة وتوسعها واستقطاب بعض الموظفين السعوديين وكبسولات القهوة ودور الأبحاث والتطوير وبراءة الاختراع. ختمنا الحلقة بمجموعة من أسئلة الجمهور التي تناولت مستقبل الشركة وتوسعها واستقطاب بعض الموظفين السعوديين وكبسولات القهوة ودور الأبحاث والتطوير وبراءة الاختراع.</p>
+                </p>
+            </div>
+        </div>
+      </div>
+      <!--crom-->
+      <div class="crom">
+          <div >
+            <img src="image/image1.png" alt="crome">
+            <p>عبّود كاست </p>
+          </div>
+        </div>
+      <div class="parent-slick-rels bg-white overflow-hidden">
+        <div class="slick-rels" dir="rtl">
+          <div class="sonson">
+            <div class="son position-relative">
+              <img src="image/Rectangle1b.png" alt="user" />
+              <div class="playy d-flex justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center rounded-circle">
+                  <i class="bi bi-play-fill text-white fs-4 mt-1"></i>
+                </div>
+              </div>
+            </div>
+            <p>نهاية التباهي بالأطعمة وهدرها في السعودية</p>
+          </div>
+          <div class="sonson">
+            <div class="son">
+              <img src="image/Rectangle1b.png" alt="user" />
+            </div>
+            <p>رئيس تايوان الجديد يقلق الصين</p>
+          </div>
+          <div class="sonson">
+            <div class="son">
+              <img src="image/Rectangle1b.png" alt="user" />
+            </div>
+            <p>نهاية التباهي بالأطعمة وهدرها في السعودية</p>
+          </div>
+          <div class="sonson">
+            <div class="son">
+              <img src="image/Rectangle1b.png" alt="user" />
+            </div>
+            <p>نهاية التباهي بالأطعمة وهدرها في السعودية</p>
+          </div>
+          <div class="sonson sp">
+            <div class="son">
+              <img src="image/Rectangle1b.png" alt="user" />
+            </div>
+            <p>نهاية التباهي بالأطعمة وهدرها في السعودية</p>
+          </div>
+        </div>
+      </div>
+    </div>
+     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="slike/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="js/article.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/video.js"></script>
+    <script src="js/audio.js"></script>
+  </body>
+</html>
