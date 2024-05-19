@@ -52,6 +52,7 @@ input[type="range"]::-moz-range-track {
   height: 5px;
   background: #fff;
   border-radius: 16px;
+  position: relative;
 }
 
 /* Thumb: webkit */
@@ -61,12 +62,14 @@ input[type="range"]::-webkit-slider-thumb {
   appearance: none; 
   /* creating a custom design */
   height: 8px;
-  width:8px;
+ width: 8px;
+
+  
   background-color: #F5B078;
   border-radius: 10%;
   border: 2px solid #F5B078;
   /*  slider progress trick  */
-  box-shadow: -407px 0 0 400px #F5B078;
+  box-shadow: -30000px 0 0 30000px #F5B078;
 }
 
 
@@ -99,3 +102,7 @@ font-size: 12px;
 font-weight: 700;
 line-height: 130%; /* 15.6px */
 }
+
+
+
+

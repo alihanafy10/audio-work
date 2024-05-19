@@ -4,7 +4,6 @@ let prog = document.getElementById("prog");
 let song = document.getElementById("song");
 let controlIcon = document.getElementById("controlIcon");
 let currentTimeDisplay = document.getElementById("currentTime");
-
 song.onloadedmetadata = function () {
   prog.max = song.duration;
   prog.value = song.currentTime;
@@ -47,3 +46,4 @@ function formatTime(time) {
   seconds = seconds < 10 ? "0" + seconds : seconds;
   return minutes + ":" + seconds;
 }
+
