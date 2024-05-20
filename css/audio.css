@@ -69,7 +69,7 @@ input[type="range"]::-webkit-slider-thumb {
   border-radius: 10%;
   border: 2px solid #F5B078;
   /*  slider progress trick  */
-  box-shadow: -30000px 0 0 30000px #F5B078;
+  box-shadow: var(--thumb-box-shadow);
 }
 
 
